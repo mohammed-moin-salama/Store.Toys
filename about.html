@@ -1,0 +1,392 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>ToyStore — Webflow Ecommerce HTML website template</title>
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="5bd83035e7345f2f22c0bece_favicon.png" rel="shortcut icon" type="image/x-icon" />
+    <link href="5bd8303816e1ea6c375be6cb_webclip.png" rel="apple-touch-icon" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link href="style/StyleSheet.css" rel="stylesheet" />
+    <style>
+        .image {
+            background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(https://assets.website-files.com/5badda2…/5baf3d5…_tim-gouw-165547-unsplash.jpg);
+            background-image: linear-gradient( 180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('image/WhatsApp Image 2022-01-18 at 10.23.05 AM.jpeg');
+            background-attachment: fixed;
+            padding-top: 120px;
+            padding-bottom: 100px;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid  position-fixed h top-0 colorf2 g-0  ">
+        <div class="container-lg px-sm-3 px-lg-5 g-0 ">
+            <div class="row d-flex   pt-1 pb-1   flex-lg-row  text-white">
+                <div class="col-6 d-flex   flex-lg-row  ">
+                    <div class="col-auto align-items-center me-3  mb-0   fs11">Call Us: +1 213 974-5898</div>
+                    <div class=" col-auto align-items-center mb-0 fs11 d-none d-md-block  ">  Email: <a href="#" class="text-white">toystore@template.com </a></div>
+                </div>
+                <div class="col-6    text-end">
+
+                    <a href="https://www.elasticthemes.com/" class="text-white iconhover d-inline-block   ">  <i class='bx bxl-twitter iconhover1'></i></a>
+                    <a href="https://www.elasticthemes.com/" class="text-white iconhover d-inline-block "><i class='bx bxl-facebook-square iconhover1'></i></a>
+                    <a href="https://www.elasticthemes.com/" class="text-white iconhover d-inline-block "><i class='bx bxl-instagram iconhover1'></i></a>
+                    <a href="https://www.elasticthemes.com/" class="text-white iconhover d-inline-block "><i class='bx bxl-pinterest iconhover1'></i></a>
+                    <a href="https://www.elasticthemes.com/" class="text-white iconhover d-inline-block "><i class='bx bxl-youtube iconhover1'></i> </a>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container-fluid position-fixed bg-white s g-0 border">
+        <div class="container-lg px-lg-5 g-0 ">
+            <nav class="navbar navbar-expand-lg navbar-light  ">
+
+
+                <a href="index.html" class="navbar-brand me-5 fs-4 ps-sm-3 ps-lg-0 pb-0 border-0"> ToyStore</a>
+                <div class="d-flex order-lg-last flex-row-reverse">
+                    <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon border-0"></span>
+
+
+                    </button>
+
+
+
+                    <button type="button" class="btn p-0 ms-2 me-sm-3 me-lg-0" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                        <span class="badge colorf2   " style="border-radius:100%">0</span>
+                    </button>
+
+
+                    <!-- Modal -->
+
+
+
+                    <button type="button" class="btn p-0 " data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart3 ms-2" viewBox="0 0 16 16">
+                            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+                        </svg>
+                    </button>
+                    <button type="button" class="btn p-0 " data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                        cart
+                    </button>
+
+                    <!-- Modal -->
+
+
+                </div>
+
+                <div class="collapse navbar-collapse bg-white " id="navbarSupportedContent">
+
+                    <ul class="navbar-nav ms-lg-2  ">
+
+
+
+
+                        <li class="nav-item ">
+                            <a class="nav-link media   ps-3" href="catalog.html">
+                                <span class="hoverborderblack">Catalog</span>
+                            </a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link  ps-3" href="delivery.html">
+                                <span class="hoverborderblack">Delivery</span>
+                            </a>
+
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link  ps-3 " href="about.html">
+                                <span class="hoverborderblack">About</span>
+                            </a>
+
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link  ps-3 " href="contact.html">
+                                <span class="hoverborderblack">Contacts</span>
+                            </a>
+
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link ps-3 " href="login.html">
+                                <span class="hoverborderblack">Login</span>
+                            </a>
+
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link ps-3 " href="dashboard.html">
+                                <span class="hoverborderblack">Dashboard</span>
+                            </a>
+
+                        </li>
+
+                    </ul>
+                </div>
+
+
+            </nav>
+        </div>
+    </div>
+
+    <div class="container-lg px-3 px-lg-0 g-5 ">
+        <div class="row border-3  rounded-pill postionheader py-1 px-4 ">
+            <div class="col ">
+                <a href="index.html" class="text-decoration-none coloreheader hoverborderblack">Home</a>
+                <i class='bx bxs-right-arrow-alt fw-bold fs-6 opacity-25 vertical-align '></i>
+                <p class="d-inline-block coloreheader">
+                    About
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <div class="container">
+        <div class="row margin80 px-5 ">
+            <div class="col">
+                <div class="col-12 <!--ms-auto me-auto--> text-center">
+                    <p class=" text-center colorep  mb-3 fs-6">All You Need is Fun!</p>
+                    <h1 class="mb-3 mt-0 fs-3 fontf fw-normal text-center">Introducing ToyStore</h1>
+                    <p class="text-center coloreheader col-sm-6  mx-auto mt-1 mb-4 fw-normal fontf ">A successful marketing plan relies heavily on the pulling-power of advertising copy. Writing result-oriented ad copy is difficult, as it must appeal to, entice, and convince consumers to take action.</p>
+                    <a href="about.html" class="col-auto  text-decoration-none text-black mx-auto"><span class="border-bottom border-3 ">More About Us</span></a>
+
+                </div>
+            </div>
+        </div>
+        <div class="row px-5">
+            <img class="borderraddies16" src="image/5bb5c77fe7ca6c69b821cffc_about-image-p-2000.jpeg" />
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row pb-4 margin80 ">
+            <div class="col">
+                <div class="col-12 ms-auto me-auto ">
+                    <p class=" text-center colorep  mb-3 fs-6">Made for Webflow</p>
+                    <h2 class="text-center col-sm-6 col-md-9 col-lg-5 ms-auto me-auto mt-0 mb-3 fw-normal fontf ">Simple & Colorful Ecommerce Template for Your Business</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row d-flex flex-lg-row flex-column-reverse pe-sm-5  bd-highlight mb-sm-3 justify-content-between">
+            <div class="col-md-11 mx-md-auto col-lg-5  pt-4 ">
+                <div class="col">
+                    <div class="row">
+                        <h2 class="col-12 mb-3 text-center  text-lg-start fw-normal  fontf avaiableh2">Available for FREE!</h2>
+
+                        <div class=" col-4 offset-5 offset-lg-0 mt-2 divider <!--mx-sm-auto me-lg-auto--> "></div>
+                        <p class="col-12 text-black-50 text-center  text-lg-start fs14 mb-4">A successful marketing plan relies heavily on the pulling-power of advertising copy. Writing result-oriented ad copy is difficult, as it must appeal to, entice, and convince consumers to take action. There is no magic formula to write perfect ad copy</p>
+                        <div class="col-12 ps-0 mb-5 mb-md-0"><a href="index.html" class="col-auto offset-4 offset-lg-0  btn <!--mx-sm-auto--> imghover  text-white rounded-pill colorf2 py-2 px-4  ">GET IT NOW!</a></div>
+                    </div>
+
+                </div>
+            </div>
+
+            <img class="col-md-12 col-lg-6  borderraddies16 " src="image/5bb5c77ee73150e2021b0db4_side-image-01-p-1080.jpeg" />
+        </div>
+    </div>
+
+    <div class="container">
+
+        <div class="row p-sm-5  bd-highlight mb-3 ">
+
+            <img class="col-md-12 col-lg-6  borderraddies16 " src="image/5bb5c77f0b5b7843138dc3c3_side-image-02-p-1080.jpeg" />
+            <div class="col-md-11 mx-md-auto col-lg-5  pt-4 ">
+                <div class="col">
+                    <div class="row">
+                        <h2 class="col-12 mb-3  text-center text-lg-start fw-normal  fontf avaiableh2">100% Responsive</h2>
+
+                        <div class=" col-4 offset-5 offset-lg-0 mt-2 divider <!--mx-sm-auto me-lg-auto--> "></div>
+                        <p class="col-12 text-black-50 text-center  text-lg-start fs14 mb-4">A successful marketing plan relies heavily on the pulling-power of advertising copy. Writing result-oriented ad copy is difficult, as it must appeal to, entice, and convince consumers to take action. There is no magic formula to write perfect ad copy</p>
+                        <div class="col-auto mx-sm-auto mx-lg-0 text-center text-lg-start w-100"><a href="index.html" class="col-auto   <!--mx-sm-auto--> imghover  text-white     "><span class="border-bottom border-3 text-black">Explore Our Toys <i class='bx bxs-right-arrow-alt fw-bold fs-6'></i></span> </a></div>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <div class="container-fluid image position-relative">
+        <div class="row  ">
+            <div class="col-10 offset-1 col-md-8 col-lg-6  mx-md-auto opacity-100 text-white text-center">
+                <p class="fs13 mb-3 fw-bold">About The Shop</p>
+                <h2 class="fontf mb-3 fw-normal">Watch Our Story</h2>
+                <p class="fs14 mb-4">There is no magic formula to write perfect ad copy. It is based on a number of factors, including ad placement, demographic, even the consumer’s mood.</p>
+                <button type="button" class="btn p-0 " data-bs-toggle="modal" data-bs-target="#video">
+                    <a class="btn imghover bt colorf2 text-white rounded-circle" href="#"><i class='bx bxs-right-arrow  fs22'></i></a>
+                </button>
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container-md px-md-5 px-lg-0  fontf mt-5 ">
+        <div class="container-md px-md-5 p-lg-5 ">
+            <div class="row px-4 px-md-5  py-4 bg-white borderraddies16">
+                <div class="col-12 col-md-12  py-2     col-lg-6 mb-sm-3 ">
+                    <div class="row">
+                        <a href="#" class="col-12 col-md-12 col-lg-auto  text-white btn fs-3  "><i class='bx bxl-telegram p-3   text-white  colorf2   rounded-circle'></i></a>
+
+                        <h4 class="col-12 col-md-12   text-center  text-lg-start  col-lg-8 ">
+                            Subscribe to our newsletter
+                            & get<span class="colorep">10% discount!</span>
+                        </h4>
+                    </div>
+
+
+                </div>
+                <div class="col-12 col-md-12 col-lg-6 mt-sm-3 ">
+                    <div class="row ">
+                        <div class="col-12 col-md-12   col-lg-8  mb-4"> <input type="email" class=" text-sm-center text-lg-start  form-control py-2 px-4 mb-0  me-3 borderraddies16   inputcontact" id="txtaddress" placeholder="Enter your email address"></div>
+
+                        <div class="col-12 col-md-12 col-lg-4 ">
+                            <button class="col-12  imghover      btn colorf2 rounded-pill py-2 px-4 text-capitalize text-white" type="submit" value="Search">Subscribe</button>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="container px-3 px-md-0 g-5 mb-5 ">
+        <div class="row g-3 margin80 mt-2 px-3">
+            <p class="col-lg-12 text-center mb-3 colorep  ">@ElasticThemes</p>
+            <h2 class="col-12 text-center mt-0 fw-normal fs32 fontf">We're on Instagram!</h2>
+
+        </div>
+        <div class="row g-3 mb-5">
+            <div class="col-4 col-md-4 col-lg-2 imghover"><a href="https://www.instagram.com/"><img class="img-fluid p-0 borderraddies16  " src="image/5badecf79395558fbeb88a49_instagram-01.jpg" /></a></div>
+            <div class="col-4 col-md-4 col-lg-2 imghover "><a href="https://www.instagram.com/"><img class="img-fluid p-0 borderraddies16" src="image/5badecf735e113f8679a57e6_instagram-02.jpg" /></a></div>
+            <div class="col-4 col-md-4 col-lg-2 imghover "> <a href="https://www.instagram.com/"><img class="img-fluid p-0 borderraddies16" src="image/5badecf735e11327b99a57e7_instagram-03.jpg" /></a></div>
+            <div class="col-4 col-md-4 col-lg-2 imghover"><a href="https://www.instagram.com/"><img class="img-fluid p-0 borderraddies16" src="image/5badecf7939555df08b88a48_instagram-04.jpg" /></a></div>
+            <div class="col-4 col-md-4 col-lg-2 imghover"><a href="https://www.instagram.com/"><img class="img-fluid p-0 borderraddies16" src="image/5badecf7939555514eb88a4a_instagram-05.jpg" /></a></div>
+            <div class="col-4 col-md-4 col-lg-2 imghover"><a href="https://www.instagram.com/"><img class="img-fluid p-0 borderraddies16 " src="image/5badecf71f2da2228d17155f_instagram-06.jpg" /></a></div>
+        </div>
+        <div class="row">
+            <div class="col-auto mx-auto  imghover">
+                <a class="btn imghover colorf2 py-2 px-4 text-white  rounded-pill" href="https://www.instagram.com/">See More Photos</a>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5"></div>
+    <div class="container-fluid pt-5 pb-2 colorf2 colorfluid">
+        <div class="container px-3 px-lg-0 g-5 off text-white">
+            <div class="row  marginb  <!--mt-4--> mb-4">
+                <div class="col-12 col-md-2 mb-3 col-lg-3 fs22"><a href="index.html" class="text-white text-decoration-none ">ToyStore</a></div>
+                <div class="col-12 col-md-10 d-flex flex-nowrap justify-content-md-end <!--ms-md-auto mx-lg-auto--> col-lg-6 ">
+                    <ul class=" d-inline ps-0 text-start ms-md-auto mx-lg-auto">
+                        <li class="d-inline "><a href="index.html" class="text-white text-decoration-none afooterhover">home</a></li>
+                        <li class="d-inline ms-2"><a href="catalog.html" class="text-white text-decoration-none afooterhover">Catalog</a></li>
+                        <li class="d-inline ms-2"><a href="delivery.html" class="text-white text-decoration-none afooterhover">Delivery</a></li>
+                        <li class="d-inline ms-2"><a href="about.html" class="text-white text-decoration-none afooterhover">About</a></li>
+                        <li class="d-inline  ms-2 "><a href="contact.html" class="text-white text-decoration-none afooterhover">Contact</a></li>
+                    </ul>
+
+                </div>
+                <div class="col-12 col-lg-3 text-sm-start text-md-end  ">
+
+                    <a href="https://www.elasticthemes.com/" class="text-white iconhover  d-inline-block me-2 ">  <i class='bx bxl-twitter iconhover1'></i></a>
+                    <a href="https://www.elasticthemes.com/" class="text-white iconhover d-inline-block me-2"><i class='bx bxl-facebook-square iconhover1'></i></a>
+                    <a href="https://www.elasticthemes.com/" class="text-white iconhover d-inline-block me-2"><i class='bx bxl-instagram iconhover1'></i></a>
+                    <a href="https://www.elasticthemes.com/" class="text-white iconhover d-inline-block me-2"><i class='bx bxl-pinterest iconhover1'></i></a>
+                    <a href="https://www.elasticthemes.com/" class="text-white iconhover d-inline-block me-2"><i class='bx bxl-youtube iconhover1'></i> </a>
+
+
+
+                </div>
+            </div>
+
+            <div class="row px-2 mb-3 mt-4">
+                <div class=" border-bottom border-1 border-white opacity-25"></div>
+            </div>
+            <div class="row d-flex mt-sm-4 mt-Lg-5 pb-1  justify-content-between ">
+                <div class="col-sm-12 col-md-auto fs11"><p>Created with love by <a href="https://www.elasticthemes.com/" class="text-white">Elastic Themes</a></p></div>
+                <div class="col text-sm-start text-md-end fs11">
+                    <p class="d-inline">Powered by<a href="https://webflow.com/" class="text-white"> Webflow</a></p>
+                    <div class="point d-inline-block"></div>
+                    <a href="https://toystore-template.webflow.io/template/style-guide" class="text-white">Style Guide</a>
+                    <div class="point d-inline-block"></div>
+                    <a href="Licensing Info.html" class="text-white">
+                        Licensing
+                    </a>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+
+    <div class="modal fade asd" id="video" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content cartmargin borderraddies16  ">
+                <d iv class="modal-header w-100 h-100">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/lnYZXAIWU8M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <!--<h4 class="modal-title fw-normal my-0" id="staticBackdropLabel">Your Cart</h4>-->
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="modal fade asd" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content cartmargin borderraddies16 ">
+                <div class="modal-header">
+                    <h4 class="modal-title fw-normal my-0" id="staticBackdropLabel">Your Cart</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body py-4 px-4 text-center">
+                    <div class="p-5">    No items found</div>
+                    .
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="modal fade asd" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content cartmargin borderraddies16">
+                <div class="modal-header">
+                    <h4 class="modal-title fw-normal my-0" id="staticBackdropLabel">Your Cart</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body py-4 px-4 text-center">
+                    No items found.
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="modal fade asd" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content cartmargin borderraddies16">
+                <div class="modal-header">
+                    <h4 class="modal-title fw-normal my-0" id="staticBackdropLabel">Your Cart</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body py-4 px-4 text-center">
+                    No items found.
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
